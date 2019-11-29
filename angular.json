@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "test-ivy-i18n": {
@@ -19,6 +19,11 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+
+            "i18nFile": "./messages.ru.xlf",
+            "i18nFormat": "xlf",
+            "i18nMissingTranslation": "warning",
+            "i18nLocale": "ru",
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -36,6 +41,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
+
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
@@ -119,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "test-ivy-i18n"
+    }
+  },
+  "defaultProject": "test-ivy-i18n",
+  "cli": {
+    "analytics": "1cd661f2-4dc0-4211-bfd5-1e3dbb80a463"
+  }
 }

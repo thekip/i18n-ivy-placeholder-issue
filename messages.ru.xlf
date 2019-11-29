@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="293cc2dd1c2eef5113079f323ba045dd817e422d" datatype="html">
+        <source><x id="START_TAG_APP-MY-COMPONENT" ctype="x-app-my-component" equiv-text="&lt;app-my-component&gt;"/><x id="CLOSE_TAG_APP-MY-COMPONENT" ctype="x-app-my-component" equiv-text="&lt;/app-my-component&gt;"/> Welcome</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <target><x id="START_TAG_APP-MY-COMPONENT" ctype="x-app-my-component" equiv-text="&lt;app-my-component&gt;"/><x id="CLOSE_TAG_APP-MY-COMPONENT" ctype="x-app-my-component" equiv-text="&lt;/app-my-component&gt;"/> Translate</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
